@@ -47,11 +47,11 @@ function Calc() {
                 <div className='row'>
                 <button onClick={()=>handleClick(".")} className='col'>.</button>
                 <button onClick={()=>handleClick("0")} className='col'>0</button>
-                <button onClick={calcResult} className='col symbol'>=</button>
+                <button onClick={cleardisplay} className='col clear'>C</button>
                 <button onClick={()=>handleClick("/")} className='col symbol'>/</button>
                 </div>
                 <div className='row'>
-                <button onClick={cleardisplay} className='col clear'>C</button>
+                <button onClick={calcResult} className='col symbol'>=</button>
                 </div>
             </div>
         </div>

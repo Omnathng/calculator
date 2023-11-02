@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #a2a2a2;
+    background-color: #8c8b8b;
   }
   
   .section {
@@ -51,7 +51,10 @@
   
   .buttons .row:last-child .col {
       /* Clear button */
-      background-color: rgb(254, 87, 87) ;
+      background-color: #8c8b8b ;
       color: white; /* white text */
+  }
+  .buttons .col.clear{
+    background-color: rgb(254, 87, 87);
   }
   
